@@ -51,11 +51,7 @@ confirm.send_keys(NEW_ADMIN_PASS)
 final = driver.find_element(By.ID, "step_finish")
 final.click()
 
-
-
-
-
-time.sleep(29999999)
+time.sleep(10)
 
 
 #<input type="password" autocomplete="off" class="input" id="password" maxlength="32" tabindex="1" style="" data-protonpass-base-css="{&quot;padding-right&quot;:&quot;&quot;}">
